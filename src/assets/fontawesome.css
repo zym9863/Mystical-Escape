@@ -1,0 +1,74 @@
+/* Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+/* Custom icon styles */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+/* Icon sizes */
+.icon-sm {
+  font-size: 0.8em;
+}
+
+.icon-md {
+  font-size: 1em;
+}
+
+.icon-lg {
+  font-size: 1.2em;
+}
+
+/* Icon colors */
+.icon-primary {
+  color: var(--primary-color);
+}
+
+.icon-secondary {
+  color: var(--secondary-color);
+}
+
+.icon-accent {
+  color: var(--accent-color);
+}
+
+.icon-danger {
+  color: var(--danger-color);
+}
+
+.icon-neutral {
+  color: var(--neutral-color);
+}
+
+/* Animation for icons */
+.icon-pulse {
+  animation: icon-pulse 2s infinite;
+}
+
+@keyframes icon-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon-spin {
+  animation: icon-spin 2s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

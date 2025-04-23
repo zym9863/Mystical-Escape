@@ -1,0 +1,65 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Merriweather', serif;
+  color: #f0f0f0;
+  background-color: #1a1a2e;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', 'Merriweather', serif;
+  font-weight: 600;
+}
+
+/* Custom utility classes */
+.text-primary { color: var(--primary-color); }
+.text-secondary { color: var(--secondary-color); }
+.text-accent { color: var(--accent-color); }
+.text-danger { color: var(--danger-color); }
+.text-neutral { color: var(--neutral-color); }
+.text-muted { color: var(--text-muted); }
+
+.bg-primary { background-color: var(--primary-color); }
+.bg-secondary { background-color: var(--secondary-color); }
+.bg-accent { background-color: var(--accent-color); }
+.bg-danger { background-color: var(--danger-color); }
+.bg-neutral { background-color: var(--neutral-color); }
+.bg-dark { background-color: var(--background-color); }
+.bg-light { background-color: var(--background-light); }
+.bg-lighter { background-color: var(--background-lighter); }
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+/* Basic button styling */
+button {
+  cursor: pointer;
+  font-family: 'Merriweather', serif;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2980b9;
+}
